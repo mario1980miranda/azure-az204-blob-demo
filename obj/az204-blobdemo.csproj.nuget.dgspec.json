@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspaces\\treinamento_azure\\AZ204\\demos\\mod03\\az204-blobdemo\\az204-blobdemo.csproj": {}
+  },
+  "projects": {
+    "C:\\workspaces\\treinamento_azure\\AZ204\\demos\\mod03\\az204-blobdemo\\az204-blobdemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspaces\\treinamento_azure\\AZ204\\demos\\mod03\\az204-blobdemo\\az204-blobdemo.csproj",
+        "projectName": "az204-blobdemo",
+        "projectPath": "C:\\workspaces\\treinamento_azure\\AZ204\\demos\\mod03\\az204-blobdemo\\az204-blobdemo.csproj",
+        "packagesPath": "C:\\Users\\G0015564\\.nuget\\packages\\",
+        "outputPath": "C:\\workspaces\\treinamento_azure\\AZ204\\demos\\mod03\\az204-blobdemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\G0015564\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
